@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerPrincipal">
+  <children>
+    <ImageView fitHeight="541.0" fitWidth="771.0" layoutX="-3.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/background.png" />
+      </image>
+    </ImageView>
+      <ImageView fx:id="imagemGuia1" fitHeight="459.0" fitWidth="553.0" layoutX="183.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemGuia2" fitHeight="459.0" fitWidth="553.0" layoutX="183.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemGuia3" fitHeight="459.0" fitWidth="553.0" layoutX="183.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemGuia4" fitHeight="433.0" fitWidth="236.0" layoutX="289.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemGuia5" fitHeight="433.0" fitWidth="236.0" layoutX="397.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemGuia6" fitHeight="265.0" fitWidth="341.0" layoutX="397.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemGuia7" fitHeight="459.0" fitWidth="553.0" layoutX="183.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemGuia8" fitHeight="459.0" fitWidth="553.0" layoutX="183.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/guias/guia8.png" />
+         </image>
+      </ImageView>
+
+    <Button fx:id="Botao_Reset" layoutX="428.0" layoutY="280.0" mnemonicParsing="false" onAction="#OnClickBotao_Reset" prefHeight="34.0" prefWidth="58.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/reset.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro1 -->
+    <Slider fx:id="sliderVelocidadeCarro1" layoutX="63.0" layoutY="48.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro1" layoutX="64.0" layoutY="14.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro1" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro1" layoutX="101.0" layoutY="14.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro1" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro2 -->
+    <Slider fx:id="sliderVelocidadeCarro2" layoutX="14.0" layoutY="113.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro2" layoutX="14.0" layoutY="79.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro2" layoutX="53.0" layoutY="79.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro2" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro3 -->
+    <Slider fx:id="sliderVelocidadeCarro3" layoutX="63.0" layoutY="179.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro3" layoutX="64.0" layoutY="145.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro3" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro3" layoutX="101.0" layoutY="145.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro3" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro4 -->
+    <Slider fx:id="sliderVelocidadeCarro4" layoutX="14.0" layoutY="239.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro4" layoutX="14.0" layoutY="205.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro4" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro4" layoutX="53.0" layoutY="205.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro4" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro5 -->
+    <Slider fx:id="sliderVelocidadeCarro5" layoutX="63.0" layoutY="310.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro5" layoutX="59.0" layoutY="276.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro5" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro5" layoutX="95.0" layoutY="276.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro5" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro6 -->
+    <Slider fx:id="sliderVelocidadeCarro6" layoutX="14.0" layoutY="374.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro6" layoutX="14.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro6" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro6" layoutX="53.0" layoutY="340.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro6" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro7 -->
+    <Slider fx:id="sliderVelocidadeCarro7" layoutX="63.0" layoutY="433.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro7" layoutX="67.0" layoutY="399.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro7" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro7" layoutX="101.0" layoutY="399.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro7" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <!-- Buttons and Sliders for Carro8 -->
+    <Slider fx:id="sliderVelocidadeCarro8" layoutX="15.0" layoutY="504.0" prefHeight="17.0" prefWidth="77.0" />
+
+    <Button fx:id="Botao_Play_Carro8" layoutX="14.0" layoutY="470.0" mnemonicParsing="false" onAction="#OnClickBotao_Play_Carro8" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="34.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/play.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+
+    <Button fx:id="Botao_Pause_Carro8" layoutX="46.0" layoutY="470.0" mnemonicParsing="false" onAction="#OnClickBotao_Pause_Carro8" prefHeight="26.0" prefWidth="34.0" style="-fx-background-color: white;">
+      <font>
+        <Font size="1.0" />
+      </font>
+      <graphic>
+        <ImageView fitHeight="64.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@../img/botoes/pause.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+      <ImageView fx:id="imagemCarro1" fitHeight="29.0" fitWidth="52.0" layoutX="429.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemCarro2" fitHeight="29.0" fitWidth="52.0" layoutX="224.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemCarro3" fitHeight="29.0" fitWidth="52.0" layoutX="642.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemCarro4" fitHeight="29.0" fitWidth="52.0" layoutX="488.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemCarro5" fitHeight="29.0" fitWidth="52.0" layoutX="380.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro05.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemCarro6" fitHeight="29.0" fitWidth="52.0" layoutX="537.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro06.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemCarro7" fitHeight="29.0" fitWidth="52.0" layoutX="537.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro07.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imagemCarro8" fitHeight="29.0" fitWidth="52.0" layoutX="217.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/carros/carro08.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="CheckBoxGuia1" layoutX="359.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleCheckBox1" />
+      <CheckBox fx:id="CheckBoxGuia2" layoutX="359.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleCheckBox2" />
+      <CheckBox fx:id="CheckBoxGuia3" layoutX="472.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleCheckBox3" />
+      <CheckBox fx:id="CheckBoxGuia4" layoutX="472.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleCheckBox4" />
+      <CheckBox fx:id="CheckBoxGuia5" layoutX="570.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleCheckBox5" />
+      <CheckBox fx:id="CheckBoxGuia6" layoutX="570.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleCheckBox6" />
+      <CheckBox fx:id="CheckBoxGuia7" layoutX="683.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleCheckBox7" />
+      <CheckBox fx:id="CheckBoxGuia8" layoutX="683.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleCheckBox8" />
+  </children>
+</AnchorPane>
